@@ -1,0 +1,46 @@
+.awesome {
+  padding-bottom: 58px;
+}
+.awesome__card {
+  display: inline-block;
+  width: 33.1%;
+}
+.awesome__card-circle {
+  height: 92px;
+  width: 92px;
+  left: 39px;
+  top: 39px;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+  margin: 0 auto 39px;
+}
+.awesome__card-icon {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+.awesome__card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 369px;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+.awesome__card-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+  width: 370px;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}

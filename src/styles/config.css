@@ -1,0 +1,43 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+ /*проверить липкий футер*/
+    height: 100vh;
+}
+
+.main-content {
+    flex: 1 0 auto;
+}
+.section-header {
+    margin: 0 auto;
+  }
+  .section-header__title {
+    padding-top: 55px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+    height: 150px;
+    width: 1170px;
+  }
+  .section-header__line {
+    width: 170px;
+    border: 1px solid #ec7979;
+    margin: 0 auto;
+  }
+  .section-header__subtitle {
+    height: 21px;
+    width: 1169px;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 110px;
+  }
