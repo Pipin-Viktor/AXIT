@@ -1,0 +1,36 @@
+.design {
+  padding-top: 50px;
+  display: flex;
+  height: 442px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/Images/nite_city_with_skyscraper.jpg);
+}
+.section-header--design {
+  color: #fff;
+}
+.section-header__line--white {
+  width: 170px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
+.section-header__subtitle--design {
+  padding-bottom: 73px;
+}
+.design__btn {
+  justify-content: center;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto 50px;
+  height: 58px;
+  width: 370px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
