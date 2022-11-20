@@ -1,18 +1,19 @@
 .design {
   padding-top: 50px;
   display: flex;
-  height: 442px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../assets/Images/nite_city_with_skyscraper.jpg);
-}
+    /* max-height: 100%;
+  max-width: 100%; */
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/Images/nite_city_with_skyscraper.jpg) no-repeat;
+    background-size: 100%,cover;
+   }
 .section-header--design {
   color: #fff;
 }
 .section-header__line--white {
-  width: 170px;
   border: 1px solid #fff;
   margin: 0 auto;
-}
+  }
 .section-header__subtitle--design {
   padding-bottom: 73px;
 }
@@ -33,4 +34,5 @@
   width: 370px;
   border: 2px solid #ffffff;
   background-color: transparent;
+  cursor: pointer;
 }

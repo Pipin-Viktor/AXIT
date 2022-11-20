@@ -1,0 +1,156 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/Images/street.jpg) no-repeat;
+  background-size: 100%, cover;
+  padding-top: 208px;
+  padding-bottom: 185px;
+}
+.banner__container {
+  display: flex;
+  justify-content: space-between;
+  height: 558px;
+  width: 1170px;
+}
+.banner__discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 558px;
+  width: 670px;
+}
+.banner__discription-logo {
+  height: 100px;
+  width: 270px;
+}
+.banner__discription-title {
+  margin-top: 51px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 168px;
+  width: 670px;
+}
+.banner__discription-line {
+  border: 1px solid #ffffff;
+  margin-top: 55px;
+  width: 170px;
+}
+.banner__discription-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 42px;
+  height: 42px;
+  width: 270px;
+}
+.banner__discription-btn {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  height: 58px;
+  width: 270px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+.banner__data {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 450px;
+  width: 470px;
+}
+.banner__data-title {
+    margin: 0 50px 45px 53px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 10px;
+  color: #333333;
+  height: 90px;
+  width: 367px;
+}
+.banner__data-form {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__form-name {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 16px;
+    font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  color: #bdbdbd;
+  height: 38px;
+  width: 370px;
+}
+.banner__form-email {
+    margin: 33px auto;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 16px;
+    font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  color: #bdbdbd;
+  height: 38px;
+  width: 370px;
+}
+.banner__form-password {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 16px;
+    font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  color: #bdbdbd;
+  height: 38px;
+  width: 370px;
+}
+.banner__data-btn {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  margin-top: 75px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: #ec7979;
+  height: 60px;
+  width: 470px;
+}

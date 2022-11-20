@@ -1,5 +1,5 @@
 .container {
-    max-width: 1170px;
+     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -18,7 +18,7 @@
     margin: 0 auto;
   }
   .section-header__title {
-    padding-top: 55px;
+       padding-top: 55px;
     text-align: center;
     font-family: "Raleway";
     font-size: 36px;
@@ -27,13 +27,13 @@
     width: 1170px;
   }
   .section-header__line {
-    width: 170px;
+       width: 170px;
     border: 1px solid #ec7979;
     margin: 0 auto;
   }
   .section-header__subtitle {
-    height: 21px;
-    width: 1169px;
+     max-height: 21px;
+    max-width: 1169px;
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 400;
