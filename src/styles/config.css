@@ -7,7 +7,7 @@
 .wrapper {
     display: flex;
     flex-direction: column;
- /*проверить липкий футер*/
+ /* проверить липкий футер */
     height: 100vh;
 }
 
@@ -24,10 +24,10 @@
     font-size: 36px;
     font-weight: 400;
     height: 150px;
-    width: 1170px;
+    /* width: 1170px; */
   }
   .section-header__line {
-       width: 170px;
+         width: 170px;
     border: 1px solid #ec7979;
     margin: 0 auto;
   }
